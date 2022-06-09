@@ -1,0 +1,128 @@
+# Analisando o perfil dos candidatos nas eleições de 2018 em Minas Gerais.
+
+#Conhecendo os dados
+SELECT * FROM `basedosdados.br_tse_eleicoes.candidatos` LIMIT 100
+SELECT * FROM `basedosdados.br_tse_eleicoes.vagas` LIMIT 100
+SELECT * FROM `basedosdados.br_tse_eleicoes.bens_candidato` LIMIT 100
+SELECT * FROM `basedosdados.br_tse_eleicoes.despesas_candidato` LIMIT 100
+SELECT * FROM `basedosdados.br_tse_eleicoes.receitas_candidato` LIMIT 100
+SELECT * FROM `basedosdados.br_tse_eleicoes.resultados_candidato` LIMIT 100
+
+#Tabela 1 - Número de Vagas em Minas Gerais nas eleições 2018.
+SELECT cargo,vagas FROM `basedosdados.br_tse_eleicoes.vagas` 
+WHERE sigla_uf = 'MG' AND ano = 2018
+
+#Tabela 2 - Distribuição de Frequência dos candidatos por data de nascimento.
+SELECT * FROM `basedosdados.br_tse_eleicoes.candidatos`
+WHERE sigla_uf = 'MG' AND ano = 2018
+# Gráfico criado no Data Studio
+
+#Tabela 3 - Proporção do número de candidatos por Gênero.
+SELECT * FROM `basedosdados.br_tse_eleicoes.candidatos`
+WHERE sigla_uf = 'MG' AND ano = 2018
+# Gráfico criado no Data Studio
+
+#Tabela 4.1 - Número de Votos por Governador.
+
+SELECT cands.nome, resultados.sigla_partido, SUM(votos) AS votos_total
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AND cands.cargo='governador'
+GROUP BY resultados.sigla_partido, cands.nome
+ORDER BY votos_total DESC;
+
+#Tabela 4.2 - Número de Votos por Senador.
+
+SELECT cands.nome, resultados.sigla_partido, SUM(votos) AS votos_total
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AND cands.cargo='senador'
+GROUP BY resultados.sigla_partido, cands.nome
+ORDER BY votos_total DESC;
+
+#Tabela 4.3 - Número de Votos por Deputado Federal.
+
+SELECT cands.nome, resultados.sigla_partido, SUM(votos) AS votos_total
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AND cands.cargo='deputado federal'
+GROUP BY resultados.sigla_partido, cands.nome
+ORDER BY votos_total DESC;
+
+#Tabela 4.4 - Número de Votos por Deputado Estadual.
+
+SELECT cands.nome, resultados.sigla_partido, SUM(votos) AS votos_total
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AND cands.cargo='deputado estadual'
+GROUP BY resultados.sigla_partido, cands.nome
+ORDER BY votos_total DESC;
+
+#Tabela 5 - Número de Votos por grau instrução
+
+SELECT cands.instrucao, SUM(votos) AS votos_total
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018
+GROUP BY cands.instrucao
+ORDER BY votos_total DESC;
+
+#Tabela 6.1 - Número de Votos por raça
+
+SELECT cands.raca, SUM(votos) AS votos_total
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 
+GROUP BY cands.raca
+ORDER BY votos_total DESC;
+
+#Tabela 6.2 - Resultado por raça 'branca'
+SELECT cands.raca, COUNT(resultados.resultado) AS qtd_candidatos, resultados.resultado
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AND cands.raca = 'branca'
+GROUP BY cands.raca, resultados.resultado
+ORDER BY resultados.resultado DESC;
+
+#Tabela 6.3 - Resultado por raça 'preta'
+SELECT cands.raca, COUNT(resultados.resultado) AS qtd_candidatos, resultados.resultado
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AND cands.raca = 'preta'
+GROUP BY cands.raca, resultados.resultado
+ORDER BY resultados.resultado DESC;
+
+#Tabela 7.1 - Número de Votos por genero
+SELECT cands.genero, SUM(votos) AS votos_total
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 
+GROUP BY cands.genero
+ORDER BY votos_total DESC;
+
+#Tabela 7.2 - Resultado por gênero 'masculino'
+SELECT cands.genero, COUNT(resultados.resultado) AS qtd_candidatos, resultados.resultado
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AND cands.genero = 'masculino'
+GROUP BY cands.genero, resultados.resultado
+ORDER BY resultados.resultado DESC;
+
+#Tabela 7.3 - Resultado por gênero 'feminino'
+SELECT cands.genero, COUNT(resultados.resultado) AS qtd_candidatos, resultados.resultado
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AND cands.genero = 'feminino'
+GROUP BY cands.genero, resultados.resultado
+ORDER BY resultados.resultado DESC;
