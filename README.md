@@ -63,6 +63,8 @@ Em segundo lugar geral, Reginaldo Lopes foi o mais votado do PT, que aparece 5 v
 
 ![tabela4 4_votos_Dep Estadual](https://user-images.githubusercontent.com/89020533/172915985-764e6616-e3b8-4529-8a9b-c66a59a3317a.png)
 
+O candidato Mauro Henrique Tramonte foi eleito com 516.390 votos, sendo o candidato mais votado em Minas e segundo Deputado estadual mais votado no Brasil, perdendo apenas para a Deputada estadual paulistana, Janaína Paschoal (PSL).
+
 #Tabela 5.1 - Número de Votos por grau instrução.
 
 ![Tebela5 1_votos_Instrucao](https://user-images.githubusercontent.com/89020533/172916566-753f4285-0bdd-42c8-8028-b6ecc0aacd7b.png)
