@@ -74,16 +74,17 @@ O candidato Mauro Henrique Tramonte foi eleito com 516.390 votos, sendo o candid
 
 Observa-se uma forte predominância do grau de instrução 'Ensino Superior Completo' com 90,9% das candidaturas. Do restante, a grande maioria tem grau de instrução 'Ensino Médio Completo' com 3,8% ou 'Ensino Superior Incompleto' com 3,6%. 
 
-#Tabela 6.0 - Número de Candidatos por raça
+#Tabela 6.0 - Número de Candidatos por raça.
 
 ![Tebela6 0_candidatos_raca](https://user-images.githubusercontent.com/89020533/172931147-b5779dbe-23ef-4c3d-b666-59fb2e452285.png)
 
+O nº de candidaturas de pessoas com a raça 'branca' foi 1.142, pouco acima de 968 que é a soma entre a raça 'parda' e 'preta'.
 
 #Tabela 6.1 - Número de Votos por raça
 
 ![Tebela6 1_votos_raca](https://user-images.githubusercontent.com/89020533/172918324-6663691f-380c-48ec-8e9e-c816de262c60.png)
 
-O nº de votos foi aproximadamente 5 vezes maior para a raça 'branca' em relação a 'negra'. 
+O nº de votos foi aproximadamente 5 vezes maior para a raça 'branca' em relação a 'parda' e 'preta' somadas. O que indica tendência maior em votos para a raça 'branca', já que essa diferença foi mínima no número de candidaturas. 
 
 #Tabela 6.2 - Resultado por raça 'branca'
 
@@ -92,6 +93,10 @@ O nº de votos foi aproximadamente 5 vezes maior para a raça 'branca' em relaç
 #Tabela 6.3 - Resultado por raça 'preta'
 
 ![Tebela6 3_resultado_raca_preta](https://user-images.githubusercontent.com/89020533/172918919-ba775c4a-4159-4f50-a40b-1b8273bb8a5b.png)
+
+#Tabela 6.4 - Resultado por raça 'parda'
+
+![Tebela6 4_resultado_raca_parda](https://user-images.githubusercontent.com/89020533/172934221-b5125209-451a-4b94-a1c6-ec9dd1e81809.png)
 
 #Tabela 7.1 - Número de Votos por genero
 
