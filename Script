@@ -72,6 +72,15 @@ WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018
 GROUP BY cands.instrucao
 ORDER BY votos_total DESC;
 
+#Tabela 6.0 - Número de candidatos por raça
+SELECT cands.raca, COUNT(resultados.resultado) AS qtd_candidatos
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018
+GROUP BY cands.raca
+ORDER BY qtd_candidatos DESC;
+
 #Tabela 6.1 - Número de Votos por raça
 
 SELECT cands.raca, SUM(votos) AS votos_total
