@@ -11,3 +11,9 @@ Explorando informações sobre as Eleições de 2018 em Minas Gerais através do
 
 Percebe-se uma concentração maior de candidatos com data de nascimento entre 1960 e 1985. 
 
+#Tabela 3 - Proporção do número de candidatos por Gênero.
+
+![tabela3_n_candidatos_genero](https://user-images.githubusercontent.com/89020533/172914316-928b33cb-622b-4abc-b53e-7599c34d479a.png)
+
+O gênero masculino é predominante e representa 68,2% dos candidatos. O gênero feminino corresponde a 31,8%. 
+A Lei das Eleições (9.504/1997) estabelece que "cada partido ou coligação preencherá o mínimo de 30% e o máximo de 70% para candidaturas de cada sexo". Portanto, o número de candidaturas do sexo feminino em Minas Gerais ficou um pouco acima do mínimo exigido.
