@@ -112,5 +112,9 @@ As Mulheres receberam apenas 9,9% dos votos, sendo que teve 31,8% das candidatur
 
 ![Tebela7 3_resultado_genero_feminino](https://user-images.githubusercontent.com/89020533/172919065-99a932d8-3cbf-4377-8b0e-26100b3abae3.png)
 
+# Tabela 8 - Receitas, número de votos e resultado - Candidatos a Governador - MG 2018. 
 
+![Tabela8_receitas_votos_resultado_gov](https://user-images.githubusercontent.com/89020533/172947502-84354917-81a4-4ead-b88e-240ad1f664a8.png)
 
+Antonio Anastasia teve 2 vezes mais receitas que Romeu Zema, porém ficou atrás no número de votos. 
+O terceiro colocado Fernando Pimentel também teve mais receitas que Romeu Zema, porém conseguiu apenas metade do nº de votos(aproximadamente) que obteve o candidato do Partido Novo.
