@@ -26,11 +26,11 @@ A Lei das Eleições (9.504/1997) estabelece que "cada partido ou coligação pr
 
 ![tabela4 2_votos_Senador](https://user-images.githubusercontent.com/89020533/172915870-f8ccee4f-10c8-4c3c-aff9-4563a1f01d56.png)
 
-#Tabela 4.3 - Número de Votos por Deputado Federal.
+#Tabela 4.3 - Número de Votos por Deputado Federal (TOP 20).
 
 ![tabela4 3_votos_Dep Federal](https://user-images.githubusercontent.com/89020533/172915940-bb8d5915-7d3b-4de8-a861-17684c7cf075.png)
 
-#Tabela 4.4 - Número de Votos por Deputado Estadual.
+#Tabela 4.4 - Número de Votos por Deputado Estadual (TOP 20).
 
 ![tabela4 4_votos_Dep Estadual](https://user-images.githubusercontent.com/89020533/172915985-764e6616-e3b8-4529-8a9b-c66a59a3317a.png)
 
@@ -43,3 +43,27 @@ A Lei das Eleições (9.504/1997) estabelece que "cada partido ou coligação pr
 ![Tebela5 2_gráfico_rosca_votos_Instrucao](https://user-images.githubusercontent.com/89020533/172916915-ee111e43-6b7e-4568-87aa-df8206cd4a0a.png)
 
 Observa-se uma forte predominância do grau de instrução 'Ensino Superior Completo' com 90,9% das candidaturas. Do restante, a grande maioria tem grau de instrução 'Ensino Médio Completo' com 3,8% ou 'Ensino Superior Incompleto' com 3,6%. 
+
+#Tabela 6.1 - Número de Votos por raça
+
+![Tebela6 1_votos_raca](https://user-images.githubusercontent.com/89020533/172918324-6663691f-380c-48ec-8e9e-c816de262c60.png)
+
+#Tabela 6.2 - Resultado por raça 'branca'
+
+![Tebela6 2_resultado_raca_branca](https://user-images.githubusercontent.com/89020533/172918812-a4a45c58-b6d2-4f93-9d68-a13d357063f5.png)
+
+#Tabela 6.3 - Resultado por raça 'preta'
+
+![Tebela6 3_resultado_raca_preta](https://user-images.githubusercontent.com/89020533/172918919-ba775c4a-4159-4f50-a40b-1b8273bb8a5b.png)
+
+#Tabela 7.1 - Número de Votos por genero
+
+![Tebela7 1_votos_genero](https://user-images.githubusercontent.com/89020533/172918983-8535258a-6078-463a-8b4e-0ad5373e32b9.png)
+
+#Tabela 7.2 - Resultado por gênero 'masculino'
+
+![Tebela7 2_resultado_genero_masculino](https://user-images.githubusercontent.com/89020533/172919030-273f88ea-b778-40ad-b2a3-e1f0c6e80ce5.png)
+
+#Tabela 7.3 - Resultado por gênero 'feminino'
+
+![Tebela7 3_resultado_genero_feminino](https://user-images.githubusercontent.com/89020533/172919065-99a932d8-3cbf-4377-8b0e-26100b3abae3.png)
