@@ -39,26 +39,26 @@ Percebe-se uma concentração maior de candidatos com data de nascimento entre 1
 O gênero masculino é predominante e representa 68,2% dos candidatos. O gênero feminino corresponde a 31,8%. 
 A Lei das Eleições (9.504/1997) estabelece que "cada partido ou coligação preencherá o mínimo de 30% e o máximo de 70% para candidaturas de cada sexo". Portanto, o número de candidaturas do sexo feminino em Minas Gerais ficou um pouco acima do mínimo exigido.
 
-#Tabela 4.1 - Número de Votos por Governador - MG 2018.
+#Tabela 4.1 - Número de Votos para Governador - MG 2018.
 
 ![tabela4 1_votos_governador](https://user-images.githubusercontent.com/89020533/172915753-8adf9312-b480-4fd6-bbd2-79155ec0c666.png)
 
 Romeu Zema foi para o 2º turno com Antonio Anastasia para o Governo de Minas, sendo eleito posteriormente.
 
-#Tabela 4.2 - Número de Votos por Senador - MG 2018.
+#Tabela 4.2 - Número de Votos para Senador - MG 2018.
 
 ![tabela4 2_votos_Senador](https://user-images.githubusercontent.com/89020533/172915870-f8ccee4f-10c8-4c3c-aff9-4563a1f01d56.png)
 
 Rodrigo Pacheco e Carlos Viana foram eleitos Senadores por Minas Gerais. A disputa foi acirrado entre 4 candidatos, com Diniz Pinheiro e Dilma Roussef ficando de fora das 2 vagas. 
 
-#Tabela 4.3 - Número de Votos por Deputado Federal (TOP 20) - MG 2018.
+#Tabela 4.3 - Número de Votos para Deputado Federal (TOP 20) - MG 2018.
 
 ![tabela4 3_votos_Dep Federal](https://user-images.githubusercontent.com/89020533/172915940-bb8d5915-7d3b-4de8-a861-17684c7cf075.png)
 
 Marcelo Henrique Teixeira Dias(mais conhecido como Marcelo Álvaro Antônio) foi ministro do Turismo do Brasil de 2019 a 2020, no governo de Jair Bolsonaro. Exerce o cargo de Deputado Federal desde 2020, sendo que no ano de 2018 foi o candidato mais votado em Minas Gerais. 
 Em segundo lugar geral, Reginaldo Lopes foi o mais votado do PT, que aparece 5 vezes nessa lista dos 20 candidatos mais votados.
 
-#Tabela 4.4 - Número de Votos por Deputado Estadual (TOP 20) - MG 2018.
+#Tabela 4.4 - Número de Votos para Deputado Estadual (TOP 20) - MG 2018.
 
 ![tabela4 4_votos_Dep Estadual](https://user-images.githubusercontent.com/89020533/172915985-764e6616-e3b8-4529-8a9b-c66a59a3317a.png)
 
