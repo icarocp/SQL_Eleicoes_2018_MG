@@ -144,3 +144,23 @@ ON resultados.id_candidato_bd = cands.id_candidato_bd
 WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AND cands.genero = 'feminino'
 GROUP BY cands.genero, resultados.resultado
 ORDER BY resultados.resultado DESC;
+
+# Tabela 8 - Receitas, número de votos e resultado - Candidatos a Governador - MG 2018. 
+
+SELECT rec.nome_candidato,rec.sigla_partido, ROUND(SUM(valor_receita),2) AS soma_valor_receita, res.votos, res.resultado
+FROM `basedosdados.br_tse_eleicoes.receitas_candidato` AS rec
+JOIN `basedosdados.br_tse_eleicoes.resultados_candidato` AS res
+ON rec.id_candidato_bd = res.id_candidato_bd
+WHERE rec.ano = 2018 AND rec.sigla_uf = 'MG' AND res.ano=2018 AND res.cargo='governador' AND res.turno = 1
+GROUP BY rec.id_candidato_bd,rec.sigla_partido, rec.nome_candidato, res.votos, res.resultado
+ORDER BY res.votos DESC;
+
+# Tabela 9 - Despesas, número de votos e resultado - Candidatos a Deputado Federal - MG 2018.
+
+SELECT des.nome_candidato,des.sigla_partido, ROUND(SUM(valor_despesa),2) AS soma_valor_despesa, res.votos, res.resultado
+FROM `basedosdados.br_tse_eleicoes.despesas_candidato` AS des
+JOIN `basedosdados.br_tse_eleicoes.resultados_candidato` AS res
+ON des.id_candidato_bd = res.id_candidato_bd
+WHERE des.ano = 2018 AND des.sigla_uf = 'MG' AND res.ano=2018 AND res.cargo='deputado federal'
+GROUP BY des.id_candidato_bd,des.sigla_partido, des.nome_candidato, res.votos, res.resultado
+ORDER BY soma_valor_despesa DESC;
