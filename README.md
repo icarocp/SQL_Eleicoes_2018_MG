@@ -102,6 +102,8 @@ O nº de votos foi aproximadamente 5 vezes maior para a raça 'branca' em relaç
 
 ![Tebela7 1_votos_genero](https://user-images.githubusercontent.com/89020533/172918983-8535258a-6078-463a-8b4e-0ad5373e32b9.png)
 
+As Mulheres receberam apenas 9,9% dos votos, sendo que teve 31,8% das candidaturas. Esses resultados indicam preferência de votos em Homens.
+
 #Tabela 7.2 - Resultado por gênero 'masculino'
 
 ![Tebela7 2_resultado_genero_masculino](https://user-images.githubusercontent.com/89020533/172919030-273f88ea-b778-40ad-b2a3-e1f0c6e80ce5.png)
