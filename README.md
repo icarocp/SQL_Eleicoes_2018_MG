@@ -1,5 +1,5 @@
 # SQL- Eleições de 2018 em Minas Gerais.
-Explorando os dados das Eleições de 2018 em Minas Gerais, através do BigQuery no Google Cloud Platform usando linguagem SQL.
+Explorando os dados das Eleições de 2018 em Minas Gerais, através do BigQuery no Google Cloud Platform e usando linguagem SQL.
 
 Objetivo: Demonstrar algumas análises possíveis de fazer com as bases de dados de Eleições, que foram extraídas do TSE e organizado no Google Cloud Platform pelo site basedosdados.org . 
 
