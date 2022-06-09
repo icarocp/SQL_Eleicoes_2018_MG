@@ -55,8 +55,7 @@ Rodrigo Pacheco e Carlos Viana foram eleitos Senadores por Minas Gerais. A dispu
 
 ![tabela4 3_votos_Dep Federal](https://user-images.githubusercontent.com/89020533/172915940-bb8d5915-7d3b-4de8-a861-17684c7cf075.png)
 
-Marcelo Henrique Teixeira Dias(mais conhecido como Marcelo Álvaro Antônio) foi ministro do Turismo do Brasil de 2019 a 2020, no governo de Jair Bolsonaro. Exerce o cargo de Deputado Federal desde 2000, foi o candidato mais votado em 2018 por Minas Gerais. 
-
+Marcelo Henrique Teixeira Dias(mais conhecido como Marcelo Álvaro Antônio) foi ministro do Turismo do Brasil de 2019 a 2020, no governo de Jair Bolsonaro. Exerce o cargo de Deputado Federal desde 2020, sendo que no ano de 2018 foi o candidato mais votado em Minas Gerais. 
 Em segundo lugar geral, Reginaldo Lopes foi o mais votado do PT, que aparece 5 vezes nessa lista dos 20 candidatos mais votados.
 
 #Tabela 4.4 - Número de Votos por Deputado Estadual (TOP 20).
