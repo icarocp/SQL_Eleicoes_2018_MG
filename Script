@@ -109,6 +109,15 @@ WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AN
 GROUP BY cands.raca, resultados.resultado
 ORDER BY resultados.resultado DESC;
 
+#Tabela 6.4 - Resultado por raça 'parda'
+SELECT cands.raca, COUNT(resultados.resultado) AS qtd_candidatos, resultados.resultado
+FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
+JOIN `basedosdados.br_tse_eleicoes.candidatos` AS cands
+ON resultados.id_candidato_bd = cands.id_candidato_bd
+WHERE resultados.ano = 2018 AND resultados.sigla_uf = 'MG' AND cands.ano=2018 AND cands.raca = 'parda'
+GROUP BY cands.raca, resultados.resultado
+ORDER BY resultados.resultado DESC;
+
 #Tabela 7.1 - Número de Votos por genero
 SELECT cands.genero, SUM(votos) AS votos_total
 FROM `basedosdados.br_tse_eleicoes.resultados_candidato` AS resultados
