@@ -43,13 +43,21 @@ A Lei das Eleições (9.504/1997) estabelece que "cada partido ou coligação pr
 
 ![tabela4 1_votos_governador](https://user-images.githubusercontent.com/89020533/172915753-8adf9312-b480-4fd6-bbd2-79155ec0c666.png)
 
+Romeu Zema foi para o 2º turno com Antonio Anastasia para o Governo de Minas, sendo eleito posteriormente.
+
 #Tabela 4.2 - Número de Votos por Senador.
 
 ![tabela4 2_votos_Senador](https://user-images.githubusercontent.com/89020533/172915870-f8ccee4f-10c8-4c3c-aff9-4563a1f01d56.png)
 
+Rodrigo Pacheco e Carlos Viana foram eleitos Senadores por Minas Gerais. A disputa foi acirrado entre 4 candidatos, com Diniz Pinheiro e Dilma Roussef ficando de fora das 2 vagas. 
+
 #Tabela 4.3 - Número de Votos por Deputado Federal (TOP 20).
 
 ![tabela4 3_votos_Dep Federal](https://user-images.githubusercontent.com/89020533/172915940-bb8d5915-7d3b-4de8-a861-17684c7cf075.png)
+
+Marcelo Henrique Teixeira Dias(mais conhecido como Marcelo Álvaro Antônio) foi ministro do Turismo do Brasil de 2019 a 2020, no governo de Jair Bolsonaro. Exerce o cargo de Deputado Federal desde 2000, foi o candidato mais votado em 2018 por Minas Gerais. 
+
+Em segundo lugar geral, Reginaldo Lopes foi o mais votado do PT, que aparece 5 vezes nessa lista dos 20 candidatos mais votados.
 
 #Tabela 4.4 - Número de Votos por Deputado Estadual (TOP 20).
 
@@ -88,3 +96,6 @@ Observa-se uma forte predominância do grau de instrução 'Ensino Superior Comp
 #Tabela 7.3 - Resultado por gênero 'feminino'
 
 ![Tebela7 3_resultado_genero_feminino](https://user-images.githubusercontent.com/89020533/172919065-99a932d8-3cbf-4377-8b0e-26100b3abae3.png)
+
+
+
