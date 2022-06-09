@@ -118,3 +118,12 @@ As Mulheres receberam apenas 9,9% dos votos, sendo que teve 31,8% das candidatur
 
 Antonio Anastasia teve 2 vezes mais receitas que Romeu Zema, porém ficou atrás no número de votos. 
 O terceiro colocado Fernando Pimentel também teve mais receitas que Romeu Zema, porém conseguiu apenas metade do nº de votos(aproximadamente) que obteve o candidato do Partido Novo.
+
+#Tabela 9 - Despesas, número de votos e resultado - Candidatos a Deputado Federal - MG 2018.
+
+![Tabela9_despesas_votos_resultado_depfed](https://user-images.githubusercontent.com/89020533/172949262-5bec633a-5f61-4eab-af61-1321120b7fd0.png)
+
+A candidata que teve a maior soma no valor de despesas na campanha foi Dâmina de Carvalho, porém não foi eleita. 
+Em seguida vem Aécio Neves com valor de despesas muito parecido com a primeira, só que foi eleito. 
+Quase metade dos 20 candidatos que tiveram maiores despesas foram eleitos. 
+
