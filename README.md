@@ -62,7 +62,7 @@ Em segundo lugar geral, Reginaldo Lopes foi o mais votado do PT, que aparece 5 v
 
 ![tabela4 4_votos_Dep Estadual](https://user-images.githubusercontent.com/89020533/172915985-764e6616-e3b8-4529-8a9b-c66a59a3317a.png)
 
-O candidato Mauro Henrique Tramonte foi eleito com 516.390 votos, sendo o candidato mais votado em Minas e segundo Deputado estadual mais votado no Brasil, perdendo apenas para a Deputada estadual paulistana, Janaína Paschoal (PSL).
+O candidato Mauro Henrique Tramonte foi eleito com 516.390 votos, sendo o candidato mais votado em Minas Gerais e segundo Deputado estadual mais votado no Brasil, perdendo apenas para a Deputada estadual paulistana, Janaína Paschoal (PSL).
 
 #Tabela 5.1 - Número de Votos por grau instrução.
 
@@ -74,9 +74,16 @@ O candidato Mauro Henrique Tramonte foi eleito com 516.390 votos, sendo o candid
 
 Observa-se uma forte predominância do grau de instrução 'Ensino Superior Completo' com 90,9% das candidaturas. Do restante, a grande maioria tem grau de instrução 'Ensino Médio Completo' com 3,8% ou 'Ensino Superior Incompleto' com 3,6%. 
 
+#Tabela 6.0 - Número de Candidatos por raça
+
+![Tebela6 0_candidatos_raca](https://user-images.githubusercontent.com/89020533/172931147-b5779dbe-23ef-4c3d-b666-59fb2e452285.png)
+
+
 #Tabela 6.1 - Número de Votos por raça
 
 ![Tebela6 1_votos_raca](https://user-images.githubusercontent.com/89020533/172918324-6663691f-380c-48ec-8e9e-c816de262c60.png)
+
+O nº de votos foi aproximadamente 5 vezes maior para a raça 'branca' em relação a 'negra'. 
 
 #Tabela 6.2 - Resultado por raça 'branca'
 
