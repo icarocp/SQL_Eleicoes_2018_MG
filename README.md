@@ -1,6 +1,27 @@
 # SQL- Eleições de 2018 em Minas Gerais.
 Explorando informações sobre as Eleições de 2018 em Minas Gerais através do BigQuery no Google Cloud Platform usando linguagem SQL.
 
+Objetivo: Demonstrar algumas análises possíveis de fazer com as bases de dados de Eleições, que foram extraídas do TSE e organizado no Google Cloud Platform pelo site basedosdados.org . 
+
+As bases de dados podem ser acessadas pelo link : https://basedosdados.org/dataset/br-tse-eleicoes?bdm_table=bens_candidato
+
+No Big Query através do código:
+
+Dados de Candidatos: SELECT * FROM `basedosdados.br_tse_eleicoes.candidatos` LIMIT 100 ,
+
+Dados de Vagas: `basedosdados.br_tse_eleicoes.vagas` 
+
+Dados de Bens_Candidatos: `basedosdados.br_tse_eleicoes.bens_candidato` 
+
+Dados de Despesas_Candidatos: `basedosdados.br_tse_eleicoes.despesas_candidato` 
+
+Dados de Receitas_Candidatos: `basedosdados.br_tse_eleicoes.receitas_candidato` 
+
+Dados de Resultados_Candidatos: `basedosdados.br_tse_eleicoes.resultados_candidato` 
+
+
+
+
 #Tabela 1 - Número de Vagas em Minas Gerais nas eleições 2018.
 
 ![tabela1_vagas_cargo](https://user-images.githubusercontent.com/89020533/172913214-dfc85de8-cf20-4a73-aa90-f5952661b9e6.png)
